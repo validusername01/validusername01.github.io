@@ -1,3 +1,11 @@
 p{
-    text-align: center; color: red;
+    text-align: center; color: #d1c7d8;
+}
+
+#header{
+    text-algin: center; color: blue;
+}
+
+.center{
+    text-align: center; color: green;
 }
