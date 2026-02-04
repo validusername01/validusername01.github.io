@@ -1,11 +1,31 @@
-p{
-    text-align: center; color: #d1c7d8;
+p {
+    text-align: center; color: red;
 }
 
-#header{
-    text-algin: center; color: blue;
+body {
+    background: blue; font-family: Arial, Helvetica, sans-serif;
 }
 
-.about{
-    text-align: center; color: green;
+#header {
+    color: green;
+}
+
+.about {
+    text-align: center; color: blue;
+}
+
+.projects {
+    background: #00b3d1;
+}
+
+.left {
+    text-align: left;
+}
+
+.green {
+    color: green;
+}
+
+.attention {
+    font-weight: bold;
 }
