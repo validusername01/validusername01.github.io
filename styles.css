@@ -1,42 +1,58 @@
 body {
     background: hsl(240, 58%, 19%);
     font-family: Arial, Helvetica, sans-serif;
-    color: #f0f4f8; /* soft light text */
-}
-
-/* General paragraphs */
-p {
-    text-align: center;
+    color: #f0f4f8;
+    margin: 0;
+    padding: 0;
 }
 
 /* Header */
 #header {
-    color: #00d4ff; /* bright cyan accent */
+    text-align: center;
+    color: #00d4ff;
+    margin-top: 20px;
 }
 
-/* About section */
+/* Sections */
+.about,
+.skills,
+.projects-section,
+.contact {
+    padding: 20px;
+}
+
+/* About */
 .about {
     text-align: center;
-    color: #a5d8ff; /* softer blue accent */
 }
 
-/* Projects section */
-.projects {
-    background: #0a3d62; /* darker blue tone */
-}
-
-/* Alignment utility */
+/* Skills */
 .left {
     text-align: left;
 }
 
-/* Accent green replaced with complementary teal */
-.green {
-    color: #38d9a9; /* teal instead of harsh green */
+/* Project Section (NO blue highlight anymore) */
+.projects-section {
+    padding: 20px;
 }
 
-/* Attention text */
-.attention {
-    font-weight: bold;
-    color: #ffd43b; /* soft gold highlight */
+/* Individual project card */
+.project {
+    background-color: #1e2a47;
+    padding: 15px;
+    border-radius: 8px;
+    margin-top: 10px;
+}
+
+/* Team member text */
+.team-member {
+    font-size: 0.9em;
+    color: #38d9a9;
+}
+
+/* Images */
+img {
+    max-width: 300px;
+    margin-top: 10px;
+    border-radius: 6px;
 }
