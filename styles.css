@@ -1,62 +1,50 @@
+p {
+    text-align: center; color: red;
 body {
     background: hsl(240, 58%, 19%);
     font-family: Arial, Helvetica, sans-serif;
-    color: #f0f4f8;
-    margin: 0;
-    padding: 0;
+    color: #f0f4f8; /* soft light text */
+}
+
+body {
+    background: hsl(240, 58%, 19%); font-family: Arial, Helvetica, sans-serif;
+/* General paragraphs */
+p {
+    text-align: center;
 }
 
 /* Header */
 #header {
-    text-align: center;
-    color: #00d4ff;
-    margin-top: 20px;
+    color: green;
+    color: #00d4ff; /* bright cyan accent */
 }
 
-/* Sections */
-.about,
-.skills,
-.projects-section,
-.contact {
-    padding: 20px;
-}
-
-/* About */
+/* About section */
 .about {
+    text-align: center; color: blue;
     text-align: center;
+    color: #a5d8ff; /* softer blue accent */
 }
 
-/* Skills */
+/* Projects section */
+.projects {
+    background: #00b3d1;
+    background: #0a3d62; /* darker blue tone */
+}
+
+/* Alignment utility */
 .left {
     text-align: left;
 }
 
-/* 🔵 Blue Highlight Added Here */
-.projects-section {
-    background: #00b3d1;   /* blue highlight */
-    padding: 20px;
-    margin: 20px;
-    border-radius: 10px;
+/* Accent green replaced with complementary teal */
+.green {
+    color: green;
+    color: #38d9a9; /* teal instead of harsh green */
 }
 
-/* Individual project card (adjusted for contrast) */
-.project {
-    background-color: #ffffff;   /* white card on blue */
-    color: #000000;              /* dark text for readability */
-    padding: 15px;
-    border-radius: 8px;
-    margin-top: 10px;
-}
-
-/* Team member text */
-.team-member {
-    font-size: 0.9em;
-    color: #007c91;  /* darker teal so it shows on white */
-}
-
-/* Images */
-img {
-    max-width: 300px;
-    margin-top: 10px;
-    border-radius: 6px;
+/* Attention text */
+.attention {
+    font-weight: bold;
+    color: #ffd43b; /* soft gold highlight */
 }
