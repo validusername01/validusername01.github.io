@@ -31,14 +31,18 @@ body {
     text-align: left;
 }
 
-/* Project Section (NO blue highlight anymore) */
+/* 🔵 Blue Highlight Added Here */
 .projects-section {
+    background: #00b3d1;   /* blue highlight */
     padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
 }
 
-/* Individual project card */
+/* Individual project card (adjusted for contrast) */
 .project {
-    background-color: #1e2a47;
+    background-color: #ffffff;   /* white card on blue */
+    color: #000000;              /* dark text for readability */
     padding: 15px;
     border-radius: 8px;
     margin-top: 10px;
@@ -47,7 +51,7 @@ body {
 /* Team member text */
 .team-member {
     font-size: 0.9em;
-    color: #38d9a9;
+    color: #007c91;  /* darker teal so it shows on white */
 }
 
 /* Images */
