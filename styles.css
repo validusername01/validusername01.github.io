@@ -1,13 +1,10 @@
-p {
-    text-align: center; color: red;
 body {
     background: hsl(240, 58%, 19%);
     font-family: Arial, Helvetica, sans-serif;
     color: #f0f4f8; /* soft light text */
 }
 
-body {
-    background: hsl(240, 58%, 19%); font-family: Arial, Helvetica, sans-serif;
+
 /* General paragraphs */
 p {
     text-align: center;
@@ -15,20 +12,17 @@ p {
 
 /* Header */
 #header {
-    color: green;
     color: #00d4ff; /* bright cyan accent */
 }
 
 /* About section */
 .about {
-    text-align: center; color: blue;
     text-align: center;
     color: #a5d8ff; /* softer blue accent */
 }
 
 /* Projects section */
 .projects {
-    background: #00b3d1;
     background: #0a3d62; /* darker blue tone */
 }
 
@@ -39,7 +33,6 @@ p {
 
 /* Accent green replaced with complementary teal */
 .green {
-    color: green;
     color: #38d9a9; /* teal instead of harsh green */
 }
 
