@@ -1,33 +1,25 @@
-<div class="project-grid">
-      <div class="project-card">
-        <h3><a href="files/statement.pdf">Problem Statement</a></h3>
-        <a href="files/statement.pdf"><img src="images/images.jpeg" alt="Project 1"></a>
-        <p>While many websites or apps have their own way of saving recipes, there are none that are able to consolidate them nor are they able to integrate with ones day to day to lives by suggesting purchases or keeping track of what ingredients one may have.</p>
-      </div>
-      <div class="project-card">
-        <h3><a href="files/personas.pdf">Persona</a></h3>
-        <a href="files/personas.pdf"><img src="images/HaroldImage.jpeg" alt="Project 2"></a>
-        <p>Our group created a few persona that may be part of our audience.</p>
-      </div>
-      <div class="project-card">
-        <h3><a href="files/storyboards.pdf">Storyboard</a></h3>
-        <a href="files/storyboards.pdf"><img src="images/SketchImage.jpeg" alt="Project 2"></a>
-        <p>Our group brainstormed some scenarios in which our apps could be used in the lives of our Personas.</p>
-      </div>
-      <div class="project-card">
-        <h3><a href="files/Sketches.pdf">Sketches</a></h3>
-        <a href="files/Sketches.pdf"><img src="images/ActualSketchImage.jpeg" alt="Project 2"></a>
-        <p>Our group created some ideas on what the app would look like.</p>
-      </div>
-      <div class="project-card">
-        <h3><a href="files/Affinity_Diagram.pdf">Affinity Diagram</a></h3>
-        <a href="files/Affinity_Diagram.pdf"><img src="images/Affinity_Diagram.jpeg" alt="Project 2"></a>
-        <p>A few ideas that we considered prior to creating our app.</p>
-      </div>
-      <div class="project-card">
-        <h3><a href="files/paperdemocsce190.pdf">Paper Prototype</a></h3>
-        <a href="files/paperdemocsce190.pdf"><img src="images/VideoImage.png" alt="Project 2"></a>
-        <p>Brief description of what the project is, the problem it solves, and the steps taken.</p>
-      </div>
-    </div>
-  </section>
+<div class="project-box card" style="margin-bottom: 0;">
+  <a href="#"><img src="files/project1.png" alt="CSCE190"></a>
+  <div class="project-text">
+    <h3><a href="#">Recipe App</a></h3>
+    <p>Are you having a hard time trying to get 3 meals a day? Well here is the app for you!</p>
+
+    <h4><a href="#">Problem Statement</a></h4>
+    <p>While many websites or apps have their own way of saving recipes, there are none that are able to consolidate them nor integrate with day-to-day life by suggesting purchases or keeping track of what ingredients one may have.</p>
+
+    <h4><a href="#">Persona</a></h4>
+    <p>Our group created a few personas that may be part of our audience.</p>
+
+    <h4><a href="#">Storyboard</a></h4>
+    <p>Our group brainstormed some scenarios in which our app could be used in the lives of our Personas.</p>
+
+    <h4><a href="#">Sketches</a></h4>
+    <p>Our group created some ideas on what the app would look like.</p>
+
+    <h4><a href="#">Affinity Diagram</a></h4>
+    <p>A few ideas that we considered prior to creating our app.</p>
+
+    <h4><a href="#">Paper Prototype</a></h4>
+    <p>Brief description of what the project is, the problem it solves, and the steps taken.</p>
+  </div>
+</div>
